@@ -89,6 +89,15 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+
+        release {
+           
+            storeFile file('Ayushi.keystore')
+            storePassword 'Ayushi@989'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+    
+        }
     }
     buildTypes {
         debug {
